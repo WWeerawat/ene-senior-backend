@@ -51,4 +51,7 @@ export class CreateManufactureDto {
 
   @ApiProperty()
   productOrder: string;
+
+  @ApiProperty()
+  mfg: Date;
 }

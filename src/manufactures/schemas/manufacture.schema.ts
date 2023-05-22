@@ -57,6 +57,9 @@ export class Manufacture {
 
   @Prop()
   productOrder: string;
+
+  @Prop({ required: false })
+  mfg: Date;
 }
 
 export const ManufactureSchema = SchemaFactory.createForClass(Manufacture);
